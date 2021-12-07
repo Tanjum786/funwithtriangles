@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+:root {
+    --primary-color: #17249d;
+    --off-white:#DBEAFE;
+
+}
+
+body {
+    background-color: ghostwhite;
+  font-family: "Work Sans", sans-serif;
+    margin-top: 0px;
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.list-non-bulit {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding-right: 1rem 0.5rem;
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand:hover {
+    color: var(--dark-green);
+    font-family: "Megrim", cursive;
+
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navigation .link-active:hover {
+    color:red;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+h1:hover{
+    color: var(--primary-color);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+h2{
+    position: relative;
+    left: 34rem;
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: bold;
+
+}
+hr{
+    width: auto;
+}
+h5{
+    position: relative;
+    left: 38rem;
+    font-size: 20px;
+    margin-top: -1rem;
+}
+.quiz-form{
+    text-align: center;
+    font-size: 20px;
+}
+.question-container{
+    padding: 1.5rem 2rem;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+#submit{
+    position: relative;
+    left: 34rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color:cornflowerblue;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#output{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 2rem;
+    text-align: center;
+}
+.Angle-input{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    border-color: blue;
+    position: relative;
+    left: 30rem;
+    font-size: 20px;
+    text-align: center;
+}
+label p{
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: var(--primary-color  );
+}
+#is-triangle-btn{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    left: 37rem;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color:blueviolet;
+    cursor: pointer;
+
+}
+    
+main{       
+    overflow: hidden;
+}
+.side-input{
+    position: relative;
+    left: 32rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border-color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+#hypotenuse-btn{
+    position: relative;
+    left: 17rem;
+    top: 9rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color:var(--primary-color);
+    color: #DBEAFE;
+    cursor: pointer;
+}
+h4{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+.side{
+    position: relative;
+    left: 33rem;
+    border-radius:0.5rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    border-color: blue;
+}
+#side-btn{
+    position: relative;
+    left: 37rem;
+    margin-top:1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: #DBEAFE;
+    cursor: pointer;
+}
