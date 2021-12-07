@@ -31,7 +31,7 @@ body {
     background-color: var(--primary-color);
     color: white;
     padding: 0.5rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
 }
 
 .navigation .link {
@@ -74,9 +74,8 @@ h1{
     font-style: italic;
 }
 h2{
-    position: relative;
-    left: 34rem;
-    /* text-align: center; */
+    
+    text-align: center;
     font-size: 30px;
     font-weight: bold;
 
@@ -101,8 +100,8 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 #submit{
-    position: relative;
-    left: 34rem;
+    display: block;
+    margin: auto;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     background-color:cornflowerblue;
@@ -121,8 +120,8 @@ p{
     border-radius: 0.5rem;
     padding: 1rem 2rem;
     border-color: blue;
-    position: relative;
-    left: 30rem;
+    display: block;
+    margin: auto;
     font-size: 20px;
     text-align: center;
 }
@@ -136,8 +135,8 @@ label p{
 #is-triangle-btn{
     margin-top: 1rem;
     border-radius: 0.5rem;
-    position: relative;
-    left: 37rem;
+    display: block;
+    margin: auto;
     padding: 1rem 1.5rem;
     font-weight: bold;
     font-size: 1rem;
@@ -150,8 +149,8 @@ main{
     overflow: hidden;
 }
 .side-input{
-    position: relative;
-    left: 32rem;
+    display: block;
+    margin: auto;
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     border-color: blue;
@@ -159,8 +158,8 @@ main{
     text-align: center;
 }
 #hypotenuse-btn{
-    position: relative;
-    left: 17rem;
+    display: block;
+    margin: auto;
     top: 9rem;
     padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
@@ -176,16 +175,16 @@ h3{
     font-size: 30px;
 }
 .side{
-    position: relative;
-    left: 33rem;
+    margin: auto;
+    display: block;
     border-radius:0.5rem;
     padding: 1rem 1rem;
     text-align: center;
     border-color: blue;
 }
 #side-btn{
-    position: relative;
-    left: 37rem;
+   margin: auto;
+   display: block;
     margin-top:1rem;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
