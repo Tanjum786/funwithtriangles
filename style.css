@@ -3,15 +3,16 @@
 
 :root {
     --primary-color: #17249d;
-    --off-white:#DBEAFE;
+    --off-white: #DBEAFE;
 
 }
 
 body {
     background-color: ghostwhite;
-  font-family: "Work Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     margin-top: 0px;
 }
+
 .link {
     box-sizing: border-box;
     text-decoration: none;
@@ -19,14 +20,17 @@ body {
     font-size: 1.5rem;
     font-style: italic;
 }
+
 .list-non-bulit {
     list-style: none;
 }
 
 .list-item-inline {
     display: inline;
-    padding-right: 1rem 0.5rem;
+    margin: auto;
+    padding-right: 2rem 1rem;
 }
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -59,64 +63,74 @@ body {
 }
 
 .navigation .link-active:hover {
-    color:red;
+    color: red;
 }
 
 .navigation .link-active {
     font-weight: bold;
 }
-h1:hover{
+
+h1:hover {
     color: var(--primary-color);
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 40px;
     font-style: italic;
 }
-h2{
-    
+
+h2 {
+
     text-align: center;
     font-size: 30px;
     font-weight: bold;
 
 }
-hr{
+
+hr {
     width: auto;
 }
-h5{
-    position: relative;
-    left: 38rem;
+
+h5 {
+    text-align: center;
     font-size: 20px;
     margin-top: -1rem;
 }
-.quiz-form{
+
+.quiz-form {
     text-align: center;
     font-size: 20px;
 }
-.question-container{
+
+.question-container {
     padding: 1.5rem 2rem;
 }
-p{
+
+p {
     font-family: 'Times New Roman', Times, serif;
 }
-#submit{
+
+#submit {
     display: block;
     margin: auto;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     color: whitesmoke;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
 }
-#output{
+
+#output {
     font-size: 25px;
     font-weight: bold;
     padding-top: 2rem;
     text-align: center;
 }
-.Angle-input{
+
+.Angle-input {
     border-radius: 0.5rem;
     padding: 1rem 2rem;
     border-color: blue;
@@ -125,14 +139,16 @@ p{
     font-size: 20px;
     text-align: center;
 }
-label p{
+
+label p {
     text-align: center;
     font-size: 27px;
     margin-bottom: 1rem;
     margin-top: 2rem;
-    color: var(--primary-color  );
+    color: var(--primary-color);
 }
-#is-triangle-btn{
+
+#is-triangle-btn {
     margin-top: 1rem;
     border-radius: 0.5rem;
     display: block;
@@ -140,15 +156,16 @@ label p{
     padding: 1rem 1.5rem;
     font-weight: bold;
     font-size: 1rem;
-    background-color:blueviolet;
+    background-color: blueviolet;
     cursor: pointer;
 
 }
-    
-main{       
+
+main {
     overflow: hidden;
 }
-.side-input{
+
+.side-input {
     display: block;
     margin: auto;
     padding: 1rem 2rem;
@@ -157,35 +174,40 @@ main{
     font-size: 20px;
     text-align: center;
 }
-#hypotenuse-btn{
+
+#hypotenuse-btn {
     display: block;
     margin: auto;
     top: 9rem;
     padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     color: #DBEAFE;
     cursor: pointer;
 }
-h4{
+
+h4 {
     text-align: center;
 }
-h3{
+
+h3 {
     text-align: center;
     font-size: 30px;
 }
-.side{
+
+.side {
     margin: auto;
     display: block;
-    border-radius:0.5rem;
+    border-radius: 0.5rem;
     padding: 1rem 1rem;
     text-align: center;
     border-color: blue;
 }
-#side-btn{
-   margin: auto;
-   display: block;
-    margin-top:1rem;
+
+#side-btn {
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     background-color: var(--primary-color);
