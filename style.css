@@ -9,10 +9,22 @@
 
 body {
     background-color: ghostwhite;
+    color: black;
     font-family: "Work Sans", sans-serif;
     margin-top: 0px;
 }
-
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+button{
+    display: block;
+    margin-left :auto;
+    padding: 1rem 1rem;
+    border-radius: 00.5rem;
+    background-color:thistle;
+    cursor: pointer;
+}
 .link {
     box-sizing: border-box;
     text-decoration: none;
