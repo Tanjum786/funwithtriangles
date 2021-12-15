@@ -10,9 +10,13 @@ function calculatesumofsquare(base,hight){
 }
 
 function calculateareaOftringle(){
-    var a= calculatesumofsquare(Number(sideOfAngles[0].value),Number(sideOfAngles[1].value));
-    areaOftriangle=a/2;
-    output4.innerText= "the area of triangle "+areaOftriangle+ " cm²";
+    if(Number(sideOfAngles[0].value)>0 && Number(sideOfAngles[1].value)>0){
+        var a= calculatesumofsquare(Number(sideOfAngles[0].value),Number(sideOfAngles[1].value));
+        areaOftriangle=a/2;
+        output4.innerText= "the area of triangle "+areaOftriangle+ " cm²";
+    }else{
+        output4.innerText="Invalid Angles side";
+    }
 };
 
 sideBtn.addEventListener("click",calculateareaOftringle);
